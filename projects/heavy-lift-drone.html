@@ -1,0 +1,105 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Heavy Lift Drone, Xiang Wang</title><meta name="description" content="Electrical subsystem lead on a multirotor rated to lift 30 lb: power distribution, harnessing, motor control, and a lighter arm coupling.">
+<link rel="preload" href="../assets/fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/site.css">
+<meta property="og:title" content="Heavy Lift Drone, Xiang Wang"><meta property="og:description" content="Electrical subsystem lead on a multirotor rated to lift 30 lb: power distribution, harnessing, motor control, and a lighter arm coupling.">
+<meta property="og:image" content="https://xiang-wang-us.github.io/assets/img/heavy-lift-drone/flight_crate.jpg">
+</head><body>
+<div class="wrap">
+<header class="bar"><a class="home" href="../index.html">Xiang Wang</a>
+<nav aria-label="Primary"><a href="../index.html#projects">Projects</a><a href="../index.html#experience">Experience</a><a href="mailto:20o5xwang@gmail.com">Email</a><a href="https://linkedin.com/in/xiangwang102">LinkedIn</a><a href="https://github.com/xiang-wang-US">GitHub</a></nav></header>
+
+<main>
+<article>
+<header class="sheet hero">
+  <div class="pic"><img src="../assets/img/heavy-lift-drone/flight_crate.jpg" alt="Multirotor hovering in a netted test cage with a milk crate payload slung underneath" width="1600" height="900"></div>
+  <div class="head">
+    <div><h1>Heavy Lift Drone</h1><p class="short">Electrical subsystem lead on a multirotor rated to lift 30 lb: power distribution, harnessing, motor control, and a lighter arm coupling.</p><p class="summary">I led the electrical subsystem of a heavy lift multirotor: the power distribution board, the hand built harness, and motor control. I also redesigned the coupling that joins the carbon fiber arm tubes, cutting it from 10 parts to 6 and its weight by 14%. In April 2026 the drone flew with a payload in the test cage.</p></div>
+    <div class="dims"><div class="dim"><div class="val">30 lb</div><div class="line"></div><div class="lab">rated lift</div></div><div class="dim"><div class="val">10 to 6</div><div class="line"></div><div class="lab">parts in the redesigned arm coupling</div></div><div class="dim"><div class="val">14%</div><div class="line"></div><div class="lab">lighter coupling</div></div></div>
+  </div>
+  <div class="tb"><div><div class="k">Context</div><div class="v">ASME Design Team, Penn State</div></div><div><div class="k">Dates</div><div class="v">Fall 2025 to April 2026</div></div><div><div class="k">My role</div><div class="v">Electrical subsystem lead</div></div><div><div class="k">Scope</div><div class="v">Power distribution, cable fabrication, motor control, arm coupling</div></div><div><div class="k">Tools</div><div class="v">SolidWorks, SolidWorks Simulation, force gauge</div></div><div><div class="k">Outcome</div><div class="v">Flew with a payload in cage testing</div></div></div>
+  <div class="links"><a href="../assets/docs/Heavy_Lift_Drone_Case_Study.pdf">Download the PDF case study</a><a class="sub" href="https://github.com/xiang-wang-US/Heavy_Lift_Drone">Repository with CAD and files</a></div>
+</header>
+
+<section class="sheet chap" aria-labelledby="s1">
+  <div class="in">
+    <div><p class="num">Sheet 2 of 5</p><h2 id="s1">Power distribution and harness</h2><p>Every ESC draws from a central power distribution board. I laid the harness out on the bench at full length, fabricated the cables and connectors, and checked the system on the bench before it went on the airframe.</p></div>
+    <div class="figs">
+      
+      <figure style="--a:0.563">
+        <a href="../assets/img/heavy-lift-drone/pdb.jpg"><img src="../assets/img/heavy-lift-drone/pdb.jpg" alt="Power distribution board with ESC leads" loading="lazy" width="901" height="1600"></a>
+        <figcaption><span class="n">2.1</span>Power distribution board with ESC leads</figcaption></figure><figure style="--a:0.563">
+        <a href="../assets/img/heavy-lift-drone/harness_layout.jpg"><img src="../assets/img/heavy-lift-drone/harness_layout.jpg" alt="Harness laid out at length" loading="lazy" width="901" height="1600"></a>
+        <figcaption><span class="n">2.2</span>Harness laid out at length</figcaption></figure><figure style="--a:0.563">
+        <a href="../assets/img/heavy-lift-drone/pdb_install.jpg"><img src="../assets/img/heavy-lift-drone/pdb_install.jpg" alt="Board installed on the frame" loading="lazy" width="901" height="1600"></a>
+        <figcaption><span class="n">2.3</span>Board installed on the frame</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sheet chap" aria-labelledby="s2">
+  <div class="in">
+    <div><p class="num">Sheet 3 of 5</p><h2 id="s2">Arm structure</h2><p>The arms are carbon fiber tubes. Before settling the layout I compared a single tube arm against paired tubes stacked horizontally and vertically in SolidWorks Simulation, loading the motor end and probing von Mises stress at the root.</p></div>
+    <div class="figs">
+      
+      <figure style="--a:1.900">
+        <a href="../assets/img/heavy-lift-drone/fea_single.jpg"><img src="../assets/img/heavy-lift-drone/fea_single.jpg" alt="Single tube arm under tip load" loading="lazy" width="1600" height="842"></a>
+        <figcaption><span class="n">3.1</span>Single tube arm under tip load</figcaption></figure><figure style="--a:0.875">
+        <a href="../assets/img/heavy-lift-drone/fea_horizontal.jpg"><img src="../assets/img/heavy-lift-drone/fea_horizontal.jpg" alt="Paired tubes, horizontal" loading="lazy" width="696" height="795"></a>
+        <figcaption><span class="n">3.2</span>Paired tubes, horizontal</figcaption></figure><figure style="--a:0.796">
+        <a href="../assets/img/heavy-lift-drone/fea_vertical.jpg"><img src="../assets/img/heavy-lift-drone/fea_vertical.jpg" alt="Paired tubes, vertical" loading="lazy" width="608" height="764"></a>
+        <figcaption><span class="n">3.3</span>Paired tubes, vertical</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sheet chap" aria-labelledby="s3">
+  <div class="in">
+    <div><p class="num">Sheet 4 of 5</p><h2 id="s3">Coupling redesign</h2><p>The original coupling for the carbon fiber arm tubes used 10 components. I replaced it with a slotted collet clamp, bringing it down to 6 components and cutting its weight by 14%.</p><p>The collet was pull tested on an arm tube with a force gauge before going on the airframe.</p></div>
+    <div class="figs">
+      
+      <figure style="--a:1.307">
+        <a href="../assets/img/heavy-lift-drone/collet_section.jpg"><img src="../assets/img/heavy-lift-drone/collet_section.jpg" alt="Collet coupling, section view" loading="lazy" width="831" height="636"></a>
+        <figcaption><span class="n">4.1</span>Collet coupling, section view</figcaption></figure><figure style="--a:2.784">
+        <a href="../assets/img/heavy-lift-drone/collet_section_flat.jpg"><img src="../assets/img/heavy-lift-drone/collet_section_flat.jpg" alt="Collet clamping the carbon tube" loading="lazy" width="1019" height="366"></a>
+        <figcaption><span class="n">4.2</span>Collet clamping the carbon tube</figcaption></figure><figure style="--a:1.242">
+        <a href="../assets/img/heavy-lift-drone/collet.jpg"><img src="../assets/img/heavy-lift-drone/collet.jpg" alt="Slotted collet" loading="lazy" width="380" height="306"></a>
+        <figcaption><span class="n">4.3</span>Slotted collet</figcaption></figure><figure style="--a:0.562">
+        <video controls muted playsinline preload="none" poster="../assets/video/heavy-lift-drone/drone_collet.jpg" width="720" height="1280" aria-label="Printed collet"><source src="../assets/video/heavy-lift-drone/drone_collet.mp4" type="video/mp4"></video>
+        
+        <figcaption><span class="n">4.4</span>Printed collet (video)</figcaption></figure><figure style="--a:0.562">
+        <video controls muted playsinline preload="none" poster="../assets/video/heavy-lift-drone/drone_pull.jpg" width="720" height="1280" aria-label="Pull test on an arm tube with a force gauge"><source src="../assets/video/heavy-lift-drone/drone_pull.mp4" type="video/mp4"></video>
+        
+        <figcaption><span class="n">4.5</span>Pull test on an arm tube with a force gauge (video)</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sheet chap" aria-labelledby="s4">
+  <div class="in">
+    <div><p class="num">Sheet 5 of 5</p><h2 id="s4">Flight testing</h2><p>Parts were load checked on the bench with a force gauge before flight. In April 2026 the drone lifted a crate payload and hovered inside the netted test cage.</p></div>
+    <div class="figs">
+      
+      <figure style="--a:1.790">
+        <a href="../assets/img/heavy-lift-drone/hero_drone.jpg"><img src="../assets/img/heavy-lift-drone/hero_drone.jpg" alt="Airframe before payload testing" loading="lazy" width="1176" height="657"></a>
+        <figcaption><span class="n">5.1</span>Airframe before payload testing</figcaption></figure><figure style="--a:1.778">
+        <video controls muted playsinline preload="none" poster="../assets/video/heavy-lift-drone/drone_lift.jpg" width="1280" height="720" aria-label="Payload lift in the test cage, April 2026"><source src="../assets/video/heavy-lift-drone/drone_lift.mp4" type="video/mp4"></video>
+        
+        <figcaption><span class="n">5.2</span>Payload lift in the test cage, April 2026 (video)</figcaption></figure><figure style="--a:0.562">
+        <video controls muted playsinline preload="none" poster="../assets/video/heavy-lift-drone/drone_gauge.jpg" width="720" height="1280" aria-label="Bench load check with a force gauge"><source src="../assets/video/heavy-lift-drone/drone_gauge.mp4" type="video/mp4"></video>
+        
+        <figcaption><span class="n">5.3</span>Bench load check with a force gauge (video)</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sheet files" aria-labelledby="files-h"><h2 id="files-h">Files</h2>
+<ul><li><a href="https://github.com/xiang-wang-US/Heavy_Lift_Drone/blob/main/docs/Heavy_Lift_Drone_Case_Study.pdf">Case study (PDF)</a></li><li><a href="https://github.com/xiang-wang-US/Heavy_Lift_Drone/blob/main/cad/Drone_Assembly.step">Drone assembly (STEP)</a></li><li><a href="https://github.com/xiang-wang-US/Heavy_Lift_Drone">All files on GitHub</a></li></ul>
+<p class="cred">Built with the ASME Design Team at Penn State.</p>
+</section>
+<nav class="pager" aria-label="More projects"><a href="combat-robot.html">Previous: 6 lb Combat Robot</a><a href="nerf-blaster.html">Next: Spring Plunger Blaster</a></nav>
+</article>
+</main>
+<footer><span>Xiang Wang, Penn State Mechanical Engineering, class of December 2026</span><span><a href="mailto:20o5xwang@gmail.com">20o5xwang@gmail.com</a></span></footer>
+</div></body></html>
